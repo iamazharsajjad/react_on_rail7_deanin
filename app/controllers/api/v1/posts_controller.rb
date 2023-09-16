@@ -1,4 +1,4 @@
-class PostsController < ApplicationController
+class Api::V1::PostsController < ApplicationController
   before_action :set_post, only: %i[ show update destroy ]
 
   # GET /posts
@@ -49,3 +49,4 @@ class PostsController < ApplicationController
       params.require(:post).permit(:title, :body)
     end
 end
+  
