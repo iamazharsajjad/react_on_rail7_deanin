@@ -11,6 +11,8 @@ function PostsList() {
 
   // Fetch Post from API
   useEffect(()=>{
+    // const fetchcurrentpost = async() =>{
+
     async function loadPosts(){
       try{
         const response = await fetch(API_URL);
