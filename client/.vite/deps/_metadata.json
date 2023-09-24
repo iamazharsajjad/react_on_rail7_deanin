@@ -5,19 +5,19 @@
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "49bc6fbb",
+      "fileHash": "7e19f6df",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "ac91fec1",
+      "fileHash": "8d43a274",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.js",
       "file": "react-router-dom.js",
-      "fileHash": "7b615a4f",
+      "fileHash": "c9d69905",
       "needsInterop": false
     }
   },
